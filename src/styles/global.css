@@ -1,0 +1,58 @@
+/* src/styles/global.css */
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #4d8adf, #72b3db, #0e9a95);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+
+  .appWrapper {
+    width: 70vw;
+    height: 80vh;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    display: flex;
+    height: calc(100% - 110px);
+    overflow: hidden;
+  }
+  
+  .aside-menu {
+    width: 350px;
+    max-height: 100%;
+    overflow-y: auto;
+    overflow-x: visible;
+    /* border-right: 1px solid #ddd;
+    background-color: #f4f4f4; */
+    padding: 16px 35px 16px 16px;
+  }
+  
+
+  .content-area {
+    flex-grow: 1;
+    padding: 16px;
+    overflow-y: auto;
+    margin-left: 5%;
+  }
+
+  .glassCard {
+    background: rgba(151, 199, 219, 0.2); /* Semi-transparent background */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Border for more definition */
+    color: white;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Slight text shadow for readability */
+  }
+

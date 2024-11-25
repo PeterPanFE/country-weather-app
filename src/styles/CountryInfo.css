@@ -1,0 +1,27 @@
+.weatherInfoContainer .countryData {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(247, 249, 250, 0.331);
+}
+
+.weatherInfoContainer .countryData > div:not(:last-child) {
+    border-right: 0.2px solid white;
+}
+.weatherInfoContainer .countryData {
+    padding: 2rem 0.5rem;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+.weatherInfoContainer .countryData > div {
+    width: 33%;
+    padding: 5px 10px;
+}
+
+.weatherInfoContainer .countryData .title {
+    font-size: 1.5rem;
+}
+.weatherInfoContainer .countryData .data {
+    font-size: 2.5rem;
+
+}

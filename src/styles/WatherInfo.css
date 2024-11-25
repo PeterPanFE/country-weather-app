@@ -1,0 +1,32 @@
+.weatherInfoContainer p {
+    margin: 5px;
+}
+.weatherInfoContainer .date {
+    font-size: 1.5rem;
+    
+}
+.weatherInfoContainer .capital {
+    font-size: 3rem;
+
+}
+.weatherInfoContainer .country {
+    font-size: 2rem;
+
+}
+
+.weatherInfoContainer .weatherData {
+    font-family: "Space Grotesk", sans-serif;
+
+}
+
+.weatherInfoContainer .temperature {
+    display: flex;
+    align-items: center;
+    font-size: 8rem;
+    margin-bottom: 0;
+}
+.weatherInfoContainer .description {
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    margin-top: 0;
+}
