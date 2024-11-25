@@ -86,6 +86,16 @@ Scalable and Modular: Component-driven design and GraphQL queries simplify featu
 Type-safe: TypeScript reduces runtime errors, ensuring higher code quality.
 Efficient Debugging: Clear error handling mechanisms streamline debugging.
 For Business Stakeholders:
+
+# Run the application
+This app can be run in node v22, so make sure that you are running this node version:
+``nvm use v22``
+or if you don't have this version installed:
+``nvm install v22``
+``nvm use v22``
+then
+``npm install```
+``npm run dev``
 Scalable Design: The app is ready to integrate more features (e.g., user accounts, analytics).
 Cost-effective: Optimized build tools (Vite) and deployment pipelines minimize hosting and operational costs.
 Competitive Advantage: A polished, responsive app with rich features appeals to a global audience.
