@@ -97,13 +97,15 @@ The architecture balances performance, maintainability, and user experience whil
 
 # Run the application
 This app can be run in node v22, so make sure that you are running this node version:
-``nvm use v22``.
+``nvm use v22``
 Or if you don't have this version installed:
 
-``nvm install v22``.
-``nvm use v22``.
+``nvm install v22``
+
+``nvm use v22``
 
 Then:
 
-``npm install``.
-``npm run dev``.
+``npm install``
+
+``npm run dev``
