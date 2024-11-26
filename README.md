@@ -2,6 +2,8 @@
 
 The architecture of the single-page application (SPA) follows a modular and scalable design based on modern React development practices, leveraging GraphQL for data fetching and RESTful APIs for weather data. The application has the following core architectural layers:
 
+<img width="1438" alt="Screenshot 2024-11-26 at 10 55 43" src="https://github.com/user-attachments/assets/1e21dec8-7d01-4eba-994a-187f852bda00">
+
 ## 1. Frontend Layer
 ### Technology Stack: 
 React (with TypeScript)
